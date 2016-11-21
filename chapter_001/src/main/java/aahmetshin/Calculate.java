@@ -1,4 +1,4 @@
-package ru.aahmetshin;
+package aahmetshin;
 
 /**
 * Class Кдасс для вычисления арифметических операций + - * / 
