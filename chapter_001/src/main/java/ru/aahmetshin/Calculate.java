@@ -1,4 +1,4 @@
-package aahmetshin;
+package ru.aahmetshin;
 
 public class Calculate {
 	public static void main(String[] args) {
