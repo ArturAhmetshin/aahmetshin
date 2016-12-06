@@ -8,15 +8,12 @@ package aahmetshin.factorial;
 */
 public class Factorial {
 	/**
-	* variable result.
-	*/
-	private int result = 1;
-	/**
      *Factorial.
 	 *@param argument for for factorial
 	 *@return result
      */
 	public int fact(int argument) {
+	int result = 1;
 	for (int i = 2; i <= argument; i++) {
 	result *= i;
 	}
