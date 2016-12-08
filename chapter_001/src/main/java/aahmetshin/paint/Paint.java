@@ -22,7 +22,7 @@ public class Paint {
             for (int k = 1; k < i; k++) {
                 stringBuilder.append(" ^");
             }
-            stringBuilder.append("\n\r");
+            stringBuilder.append(System.getProperty("line.separator"));
         }
 		return stringBuilder.toString();
 	}
