@@ -14,7 +14,7 @@ public class PaintTest {
 	*/
 	@Test
 	public void whenHeightThenPiramid() {
-	final String check = " ^\n\r^ ^\n\r";
+	final String check = " ^" + System.getProperty("line.separator") + "^ ^" + System.getProperty("line.separator");
 	final int height = 2;
 	Paint paint = new Paint();
 	String result = paint.piramid(height);
