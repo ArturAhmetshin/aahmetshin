@@ -1,0 +1,18 @@
+<project>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>ru.aahmetshin</groupId>
+	<artifactId>chapter_002</artifactId>
+	<packaging>pom</packaging>
+	<version>1.0</version>
+	
+<parent>
+<groupId>aahmetshin</groupId>
+<artifactId>aahmetshin</artifactId>
+<version>1.0</version>
+</parent>
+
+<modules>
+		<module>tracker</module>
+</modules>
+		
+</project>

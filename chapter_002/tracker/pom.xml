@@ -1,0 +1,14 @@
+<project>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>ru.aahmetshin</groupId>
+	<artifactId>tracker</artifactId>
+	<packaging>jar</packaging>
+	<version>1.0</version>
+<parent>
+<groupId>ru.aahmetshin</groupId>
+<artifactId>chapter_002</artifactId>
+<version>1.0</version>
+</parent>
+		
+
+</project>
