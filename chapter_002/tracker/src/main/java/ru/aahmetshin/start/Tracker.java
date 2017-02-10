@@ -51,14 +51,14 @@ public class Tracker {
     }
     /**
      *This method find Item.
-     *@param key is name item
+     *@param keyName is name item
      *@return Item
      */
-    public Item findByName(String key) {
+    public Item findByName(String keyName) {
         Item result = null;
         for (Item item: items
                 ) {
-            if (item.getName().equals(key)) {
+            if (item.getName().equals(keyName)) {
                 result = item;
                 break;
             }
